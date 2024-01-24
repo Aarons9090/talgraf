@@ -30,7 +30,31 @@
   width: 3rem;
   height: 3rem;
   border: none;
-  background-color: rgb(212, 212, 212);
+  background-color: rgb(236, 236, 236);
   border-radius: 100%;
   cursor: pointer;
+  position: relative;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 5rem;
+  left: -2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.15);
+}
+
+.dropdown>option {
+  padding: 1rem;
+}
+
+.dropdown>option:hover {
+  background-color: #5f4ae6;
+  color: white;
+}
+
+.active {
+  display: block;
 }

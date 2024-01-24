@@ -1,4 +1,5 @@
 import * as d3 from 'd3'
+import { useState } from 'react'
 import './App.css'
 
 const width = 900
@@ -73,14 +74,26 @@ const createChart = async () => {
 }
 
 function App() {
+  const [showMenu, setShowMenu] = useState(false)
   createChart()
   return (
     <div className="App">
       <div className="container">
         <div className="bar">
           <h2>Bubble chart</h2>
-          <button className="icon-button">
+          <button
+            onClick={() => setShowMenu(!showMenu)}
+            className="icon-button"
+          >
             <span class="material-symbols-outlined">more_vert</span>
+            <div className={`dropdown ${showMenu && 'active'}`}>
+              <option>Muokkaa widgettiä</option>
+              <option>Luo kopio</option>
+              <option>Poista</option>
+              <option>Lataa uudelleen</option>
+              <option>Vie widgetti tiedotoksi</option>
+              <option>Tallenna...</option>
+            </div>
           </button>
         </div>
         <svg id="chart" />
