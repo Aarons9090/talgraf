@@ -85,14 +85,30 @@ function App() {
             onClick={() => setShowMenu(!showMenu)}
             className="icon-button"
           >
-            <span class="material-symbols-outlined">more_vert</span>
+            <span class="material-symbols-outlined">more_horiz</span>
             <div className={`dropdown ${showMenu && 'active'}`}>
-              <option>Muokkaa widgettiä</option>
-              <option>Luo kopio</option>
-              <option>Poista</option>
-              <option>Lataa uudelleen</option>
-              <option>Vie widgetti tiedotoksi</option>
-              <option>Tallenna...</option>
+              <div>
+                <span class="material-symbols-outlined">edit</span>
+                Muokkaa widgettiä
+              </div>
+              <div>
+                <span class="material-symbols-outlined">content_copy</span>Luo
+                kopio
+              </div>
+              <div>
+                <span class="material-symbols-outlined">delete</span>Poista
+              </div>
+              <div>
+                <span class="material-symbols-outlined">refresh</span>Lataa
+                uudelleen
+              </div>
+              <div>
+                <span class="material-symbols-outlined">upgrade</span>Vie
+                widgetti tiedotoksi
+              </div>
+              <div>
+                <span class="material-symbols-outlined">save</span>Tallenna...
+              </div>
             </div>
           </button>
         </div>

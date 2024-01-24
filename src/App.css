@@ -41,16 +41,20 @@
   position: absolute;
   top: 5rem;
   left: -2rem;
+  width: 15rem;
   background-color: white;
   border-radius: 10px;
   box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.15);
 }
 
-.dropdown>option {
+.dropdown>div {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
   padding: 1rem;
 }
 
-.dropdown>option:hover {
+.dropdown>div:hover {
   background-color: #5f4ae6;
   color: white;
 }
