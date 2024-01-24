@@ -1,0 +1,56 @@
+{
+  "companies": [
+    {
+      "name": "Apple Inc.",
+      "turnover": 365700000000
+    },
+    {
+      "name": "Microsoft Corporation",
+      "turnover": 168100000000
+    },
+    {
+      "name": "Amazon.com Inc.",
+      "turnover": 386100000000
+    },
+    {
+      "name": "Meta Platforms, Inc. (formerly Facebook)",
+      "turnover": 117900000000
+    },
+    {
+      "name": "Alphabet Inc. (Google)",
+      "turnover": 229300000000
+    },
+    {
+      "name": "Johnson & Johnson",
+      "turnover": 93800000000
+    },
+    {
+      "name": "Procter & Gamble Co.",
+      "turnover": 76300000000
+    },
+    {
+      "name": "Visa Inc.",
+      "turnover": 23000000000
+    },
+    {
+      "name": "JPMorgan Chase & Co.",
+      "turnover": 122800000000
+    },
+    {
+      "name": "Tesla, Inc.",
+      "turnover": 46800000000
+    },
+    {
+      "name": "Walmart Inc.",
+      "turnover": 559200000000
+    },
+    {
+      "name": "Bank of America Corp.",
+      "turnover": 88900000000
+    },
+    {
+      "name": "Intel Corporation",
+      "turnover": 77900000000
+    }
+  ]
+}
