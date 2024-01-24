@@ -1,8 +1,8 @@
 import * as d3 from 'd3'
 import './App.css'
 
-const width = 1680
-const height = 1050
+const width = 900
+const height = 900
 const padding = 50
 const colors = [
   '#efc4d5',
@@ -76,7 +76,15 @@ function App() {
   createChart()
   return (
     <div className="App">
-      <svg id="chart"></svg>
+      <div className="container">
+        <div className="bar">
+          <h2>Bubble chart</h2>
+          <button className="icon-button">
+            <span class="material-symbols-outlined">more_vert</span>
+          </button>
+        </div>
+        <svg id="chart" />
+      </div>
     </div>
   )
 }
